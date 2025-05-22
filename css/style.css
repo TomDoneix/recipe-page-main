@@ -208,11 +208,11 @@ strong {
 ul li::before {
   content: "";
   display: block;
-  flex: 0 0 4px;
-  height: 4px;
-  width: 4px;
+  flex: 0 0 0.25rem;
+  height: 0.25rem;
+  width: 0.25rem;
   margin-inline-start: var(--spacing__100);
-  margin-inline-end: calc(var(--spacing__200) + 12px);
+  margin-inline-end: calc(var(--spacing__200) + 0.75rem);
   border-radius: 50%;
   background: var(--color__brown800);
 }
@@ -283,7 +283,7 @@ dl div + div::before {
   left: 0;
   right: 0;
   position: absolute;
-  transform: translateY(-12px);
+  transform: translateY(-0.75rem);
   background: var(--color__stone150);
 }
 
@@ -314,8 +314,8 @@ dd {
   }
 
   img {
-    width: 536px;
-    height: 300px;
+    width: 33.5rem;
+    height: 18.75rem;
     margin: var(--spacing__500) var(--spacing__500) 0;
     border-radius: var(--spacing__150);
   }

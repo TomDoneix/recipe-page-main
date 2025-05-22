@@ -303,6 +303,10 @@ dd {
     background: var(--color__stone100);
   }
 
+  h1 {
+    color: red;
+  }
+
   main {
     margin: var(--spacing__1600) auto;
     border-radius: var(--spacing__300);
